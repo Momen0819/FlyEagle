@@ -52,63 +52,6 @@
 			letter-spacing: 0px !important;
         }
 
-		
-
-        :root {
-          --space: 1rem;
-          --space-large: 1.5rem;
-          --space-largest: 3rem;
-          --color-border: #d2bd7f;
-          --color-text: #d2bd7f;
-          --border-width: 2px;
-        }
-
-        .c-keyline-text {
-              display: flex;
-              width: 100%;
-              align-items: center;
-              text-transform: uppercase;
-            }
-
-            .c-keyline-text::before,
-            .c-keyline-text::after {
-              content: "";
-              display: inline-block;
-              width: 100%;
-              flex: 0 1 auto;
-              height: var(--border-width);
-              background-color: var(--color-border);
-              white-space: nowrap;
-            }
-
-            .c-keyline-text::before {
-              margin-right: var(--space);
-            }
-
-            .c-keyline-text::after {
-              margin-left: var(--space);
-            }
-
-        .fa-hotel,.fa-plane {
-            border: 5px solid #d2bd7f63  !important;
-            width: 100px;
-			color: white !important;
-			border-radius: 50px;
-        }
-		
-		.fa-active{
-			border: 5px solid #d2bd7f  !important;
-
-		}
-
-		select
-		{
-			background-color:#d2bd7f !important;
-		}
-
-
-    
-
 </style>
 <script>
 	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -418,131 +361,53 @@
 
 <div class="col-md-8">
 
-		<div class="form-group c-keyline-text" style="text-align:center;">
-				<label><input type="radio" style="display: none;" name="Gender" id="Gender1" value="1" checked="" class="radio-inline" onchange="Check(1)"></label>
-				<a href="javascript:;" onclick="Check(1)"><i class="fa fa-plane" id="FaPlane" style="font-size: 52px;"></i></a>
-				<label><input type="radio" style="display: none;" name="Gender" id="Gender2" value="2" class="radio-inline" onchange="Check(2)"></label>
-				<a href="javascript:;" onclick="Check(2)"><i class="fa fa-hotel" id="FaHotel" style="font-size: 50px;"></i></a>
-			</div>
-			
-				  <div class="row" id="PlaneDiv" style="display: none;">
-						<div class="col-sm-6">
-						
-								<div class="input-group">
-										<span class="input-group-addon"><i class="fa fa-fighter-jet" aria-hidden="true"></i></span><input type="text" class="form-control" placeholder="مدينة المغادرة">
-										</div>
-										<br/>
-								</div>
-								<div class="col-sm-6">
-						
-										<div class="input-group">
-												<span class="input-group-addon"><i class="fa fa-fighter-jet" aria-hidden="true"></i></span><input type="text" class="form-control" placeholder="الوجهة">
-												</div>
-												<br/>
-										</div>	
-						<div class="col-sm-6">
-						
-						<div class="input-group date">
-						<span class="input-group-addon"><i class="fa fa-calendar" aria-hidden="true"></i></span><input type="text" class="form-control" placeholder="وقت الوصول"><i class="fa fa-caret-down" aria-hidden="true"></i>
-						</div>
-						
-						</div>
-						
-						
-						<div class="col-sm-6">
-						
-						<div class="input-group date">
-						<span class="input-group-addon"><i class="fa fa-calendar" aria-hidden="true"></i></span><input type="text" class="form-control" placeholder="وقت المغادرة"><i class="fa fa-caret-down" aria-hidden="true"></i>
-						</div>
-						
-						</div>
-						
-						
-						<div class="col-sm-4">
-						
-						<div class="input-group">
-						<span class="input-group-addon"><i class="fa fa-male" aria-hidden="true"></i></span><input type="number" class="form-control" placeholder="عدد البالغين">
-						</div>
-						
-						</div>
-						
-						
-						<div class="col-sm-4">
-						
-						<div class="input-group">
-						<span class="input-group-addon"><i class="fa fa-child" aria-hidden="true"></i></span><input type="number" class="form-control" placeholder="عدد الأطفال">
-						</div>
-						
-						</div>
-						
-						
-						<div class="col-sm-4">
-						
-						<div class="find-room-btn">
-						<button type="submit" class="btn btn-default"><i class="fa fa-search" aria-hidden="true"></i> أبحث لي</button>
-						</div>
-						
-						</div>
-						
-						</div>
+<div class="row">
 
-	<div class="row" id="HotelDiv" style="display: none;">
-			<div class="col-sm-12">
-						
-					<div class="input-group">
-							<span class="input-group-addon"><i class="fa fa-bed" aria-hidden="true"></i></span><input type="text" class="form-control" placeholder="مدينة أو إسم الفندق">
-							</div>
-							<br/>
-					</div>
-					
-			<div class="col-sm-6">
-						
-					<div class="input-group date">
-					<span class="input-group-addon"><i class="fa fa-calendar" aria-hidden="true"></i></span>
-					<input type="text" class="form-control" placeholder="وقت الوصول"><i class="fa fa-caret-down" aria-hidden="true"></i>
-					</div>
-					
-					</div>
-					
-					
-					<div class="col-sm-6">
-					
-					<div class="input-group date">
-					<span class="input-group-addon"><i class="fa fa-calendar" aria-hidden="true"></i></span><input type="text" class="form-control" placeholder="وقت المغادرة"><i class="fa fa-caret-down" aria-hidden="true"></i>
-					</div>
-					
-					</div>
-					
-					
-					<div class="col-sm-4">
-					
-					<div class="input-group">
-					<span class="input-group-addon"><i class="fa fa-male" aria-hidden="true"></i></span><input type="number" class="form-control" placeholder="عدد البالغين">
-					</div>
-					
-					</div>
-					
-					
-					<div class="col-sm-4">
-					
-					<div class="input-group">
-					<span class="input-group-addon"><i class="fa fa-child" aria-hidden="true"></i></span><input type="number" class="form-control" placeholder="عدد الأطفال">
-					</div>
-					
-					</div>
-					
-					
-					<div class="col-sm-4">
-					
-					<div class="find-room-btn">
-					<button type="submit" class="btn btn-default"><i class="fa fa-search" aria-hidden="true"></i> أبحث لي</button>
-					</div>
-					
-					</div>
-	</div>
+<div class="col-sm-6">
+
+<div class="input-group date">
+<span class="input-group-addon"><i class="fa fa-calendar" aria-hidden="true"></i></span><input type="text" class="form-control" placeholder="وقت الوصول"><i class="fa fa-caret-down" aria-hidden="true"></i>
+</div>
+
+</div>
 
 
+<div class="col-sm-6">
 
+<div class="input-group date">
+<span class="input-group-addon"><i class="fa fa-calendar" aria-hidden="true"></i></span><input type="text" class="form-control" placeholder="وقت المغادرة"><i class="fa fa-caret-down" aria-hidden="true"></i>
+</div>
+
+</div>
+
+
+<div class="col-sm-4">
+
+<div class="input-group">
+<span class="input-group-addon"><i class="fa fa-male" aria-hidden="true"></i></span><input type="number" class="form-control" placeholder="عدد البالغين">
+</div>
+
+</div>
+
+
+<div class="col-sm-4">
+
+<div class="input-group">
+<span class="input-group-addon"><i class="fa fa-child" aria-hidden="true"></i></span><input type="number" class="form-control" placeholder="عدد الأطفال">
+</div>
+
+</div>
+
+
+<div class="col-sm-4">
+
+<div class="find-room-btn">
+<button type="submit" class="btn btn-default"><i class="fa fa-search" aria-hidden="true"></i> أبحث لي</button>
+</div>
+
+</div>
+
+</div>
 
 </div>
 
@@ -563,7 +428,7 @@
 
 <div class="section-header section-header-light">
 <h2>ما هي خدماتنا</h2>
-<p>نحن شركة  
+<p>نحن شركة شركة  
 		رائدة فى مجال السياحة العامة </p>
 </div>
 
@@ -1454,15 +1319,16 @@
 
 <div class="col-xs-12">
 <p class="about-us-text">
-		رائدة فى مجال السياحة العامة وتعمل تحت ضوابط وزارة السياحة السعودية
-	و 
+		رائدة فى مجال السسياحة العامة وتعمل تحت ضوابط وزارة السياحة المصرية
+		وحاصلة على ترخيص سياحة عامة أ رقم 845 لسنة 1990 ايضا على موافقات منظمة
+		العالمية IATA
 		وكلاء معتمدون لجميع خطوط الطيران العربية والعالمية والنقل السياحى وايضا مميزون فى حجز الفنادق
 		
-		داخل السعودية وحول العالم
+		داخل مصر وحول العالم
 		وكيل سياحى معتمد لكافة السفارات بإستخراج جميع التاشيرات السياحية
 		
 		انشطة الشركة
-		حجز تذاكر الطيران با فضل الاسعار – حجز الفنادق داخل السعودية وخرجها بتخفيضات هائلة
+		حجز تذاكر الطيران با فضل الاسعار – حجز الفنادق داخل مصر وخرجها بتخفيضات هائلة
 		نقل سياحى – اصدار تاشيرات سياحية – حج وعمرة
 </p>
 </div>
@@ -1591,16 +1457,16 @@
 <ul class="footer-contacts-list">
 <li>
 <span><i class="fa fa-map-marker" aria-hidden="true"></i> العنوان</span>
-<p> المملكة العربية السعودية - المنطقة الشرقية - الخبر
+<p>19 شارع 261 المعادى الجديدة – ميدان الجزائر
 	</p>
 </li>
 <li>
 <span><i class="fa fa-phone" aria-hidden="true"></i> الهاتف</span>
-<p>966547446913</p>
+<p>+20 128 406 5814 | +20 128 406 5814</p>
 </li>
 <li>
 <span><i class="fa fa-envelope" aria-hidden="true"></i> البريد الألكتروني</span>
-<p>info@flyeagle.com</p>
+<p><a href="https://oncloudeg.com/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="21424e4f55404255614e4f424d4e544544460f424e4c">[email&#160;protected]</a></p>
 </li>
 </ul>
 
@@ -1677,35 +1543,6 @@
 <script src="select2/js/select2.min.js"></script>
 <script src="js/steps-form.js"></script>
 <script src="js/custom-rtl.js"></script>
-<script>
-
-	
-
-        function Check(type) 
-		{
-            $('#FaPlane').removeClass("fa-active");
-			$('#FaHotel').removeClass("fa-active");
-            if (type == 1) 
-			{
-				$('#FaPlane').addClass("fa-active");
-                $('#Gender' + type).prop("checked", true);
-				$('#PlaneDiv').show();
-				$('#HotelDiv').hide();
-            }
-            else {
-				$('#FaHotel').addClass("fa-active");
-                $('#Gender' + type).prop("checked", true);
-				$('#HotelDiv').show();
-				$('#PlaneDiv').hide();
-            }
-        }
-
-    
-
-
-    
-
-</script>
 
 </body>
 
