@@ -52,6 +52,91 @@
 			letter-spacing: 0px !important;
         }
 
+		
+
+        :root {
+          --space: 1rem;
+          --space-large: 1.5rem;
+          --space-largest: 3rem;
+          --color-border: #d2bd7f;
+          --color-text: #d2bd7f;
+          --border-width: 2px;
+        }
+
+        .c-keyline-text {
+              display: flex;
+              width: 100%;
+              align-items: center;
+              text-transform: uppercase;
+            }
+
+            .c-keyline-text::before,
+            .c-keyline-text::after {
+              content: "";
+              display: inline-block;
+              width: 100%;
+              flex: 0 1 auto;
+              height: var(--border-width);
+              background-color: var(--color-border);
+              white-space: nowrap;
+            }
+
+			.filterelement:hover
+			{
+				color: #d2bd7f !important;
+			}
+
+.filter_count
+{
+	border: 1px solid;
+    border-radius: 5px;
+    color: white;
+    background-color: #d2bd7f;
+    border-color: #d2bd7f;
+}
+
+
+            .c-keyline-text::before {
+              margin-right: var(--space);
+            }
+
+            .c-keyline-text::after {
+              margin-left: var(--space);
+            }
+
+			label
+			{
+				font-weight:500 !important;
+			}
+
+        .fa-hotel,.fa-plane {
+            border: 5px solid #d2bd7f63  !important;
+            width: 100px;
+			color: white !important;
+			border-radius: 50px;
+        }
+		
+		.fa-active{
+			border: 5px solid #d2bd7f  !important;
+
+		}
+
+		select
+		{
+			background-color:#d2bd7f !important;
+		}
+
+		.panel-primary
+		{
+			border-color:#d2bd7f !important;
+		}
+    
+		.panel-primary>.panel-heading
+		{
+			background-color:#d2bd7f !important;
+			border-color:#d2bd7f !important;
+		}
+
 </style>
 <script>
 	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -219,1233 +304,1130 @@
 </div>
 
 </section>
+<img src="images/slider/674925.png" style="width: 100%;max-height: 500px;" />
 
 
-<section class="slider full-window-height">
 
-<div id="owl-slider" class="owl-carousel">
 
-		<div class="item">
+<section class="available-rooms-list section section-white">
 
-				<div class="owl-slider-block" style="background-image:url(images/slider/674925.png);">
+	<div class="container">
+			<div class="row">
+
+					<div class="col-xs-12">
+					
+					<div class="section-header section-header-light">
+					<h2> <i class="fa fa-search"></i>  نتائج البحث</h2>
+					<p>  </p>
+					</div>
+					<br/>
+					</div>
+						
+					</div>
+
+	<div class="row">
+	<div class="col-lg-3">
+		<div class="panel panel-primary">
+			<div class="panel-heading" style="text-align: center;"> محركات البحث 
+				<a href="javascript:;"> <i class="fa fa-th-list fa-lg" style="color: white;" aria-hidden="true"></i> </a>
+				<a href="javascript:;"><i class="fa fa-table fa-lg" style="color: white;" aria-hidden="true"></i></a>
+		</div>
+			<div class="panel-body"> 
+					<form id="filterbox_wrap" class="barrel_o_filters js-barrel_o_filters" role="region" aria-label="Filter your results">
+							<fieldset>
+							<div id="filterbox_options" style="padding:0;">
+							<div class="filterbox_options_content " data-block-id="filter_options">
+							<div id="filter_price_tracking" class="filterbox_tracking"></div>
+							<div class="
+							filterbox
+							 filterbox__first
+							" id="filter_price" data-id="filter_price" data-et-view="    ">
+							<div class="
+							filtercategory
+							 icon_filtercategory_container">
+							<h5 class="filtercategory-title">
+									ميزانيتك
+							</h5>
+							</div>
+							<div class="filteroptions" role="group">
+							<a data-id="pri-1" tabindex="-1" data-name="pri" data-value="892" data-count="262" class=" filterelement        " href="/searchresults.en-gb.html?aid=1167535;label=193466969829535;sid=a014032a18947d8298aa4675b782259f;tmpl=searchresults;ac_position=0;checkin=2019-11-13;class_interval=1;dest_id=-3096108;dest_type=city;group_adults=1;group_children=0;interval=7;label_click=undef;raw_dest_type=city;room1=A;sb_price_type=total;shw_aparth=1;slp_r_match=0;srpvid=342d61a6136e0012;ssb=empty;top_ufis=1&amp;;nflt=pri%3D1%3B;rsf=">
+							<label class="bui-checkbox">
+							<div class="bui-checkbox__label filter_item css-checkbox">
+									<input class="bui-checkbox__input js-bui-checkbox__input" type="checkbox">
+
+							<span class="filter_label
+							">
+							 من $20 - الي $80 في الليلة
+							</span>
+							<small class="filter_count">
+							262
+							</small>
+							</div>
+							</label>
+							</a>
+							<a data-id="pri-2" tabindex="-1" data-name="pri" data-value="892" data-count="262" class=" filterelement        " href="/searchresults.en-gb.html?aid=1167535;label=193466969829535;sid=a014032a18947d8298aa4675b782259f;tmpl=searchresults;ac_position=0;checkin=2019-11-13;class_interval=1;dest_id=-3096108;dest_type=city;group_adults=1;group_children=0;interval=7;label_click=undef;raw_dest_type=city;room1=A;sb_price_type=total;shw_aparth=1;slp_r_match=0;srpvid=342d61a6136e0012;ssb=empty;top_ufis=1&amp;;nflt=pri%3D1%3B;rsf=">
+								<label class="bui-checkbox">
+								<div class="bui-checkbox__label filter_item css-checkbox">
+										<input class="bui-checkbox__input js-bui-checkbox__input" type="checkbox">
+	
+								<span class="filter_label
+								">
+								 من $80 - الي $100 في الليلة
+								</span>
+								<small class="filter_count">
+								26
+								</small>
+								</div>
+								</label>
+								</a>
+							</div>
+							</div>
+							<div class="
+							vpm_d_sr_filter_suggestion
+							filterbox
+							" data-id="filter-suggestions">
+							<div class="filtercategory icon_filtercategory_container">
+							<h5 class="filtercategory-title">
+									مرشحات شائعة
+ 
+							</h5>
+							</div>
+							<div class="filteroptions">
+									<a data-id="pri-2" tabindex="-1" data-name="pri" data-value="892" data-count="262" class=" filterelement        " href="/searchresults.en-gb.html?aid=1167535;label=193466969829535;sid=a014032a18947d8298aa4675b782259f;tmpl=searchresults;ac_position=0;checkin=2019-11-13;class_interval=1;dest_id=-3096108;dest_type=city;group_adults=1;group_children=0;interval=7;label_click=undef;raw_dest_type=city;room1=A;sb_price_type=total;shw_aparth=1;slp_r_match=0;srpvid=342d61a6136e0012;ssb=empty;top_ufis=1&amp;;nflt=pri%3D1%3B;rsf=">
+										<label class="bui-checkbox">
+										<div class="bui-checkbox__label filter_item css-checkbox">
+												<input class="bui-checkbox__input js-bui-checkbox__input" type="checkbox">
+			
+										<span class="filter_label
+										">
+											فنادق
+										</span>
+										<small class="filter_count">
+										40
+										</small>
+										</div>
+										</label>
+										</a>
+										<br/>
+										<a data-id="pri-2" tabindex="-1" data-name="pri" data-value="892" data-count="262" class=" filterelement        " href="/searchresults.en-gb.html?aid=1167535;label=193466969829535;sid=a014032a18947d8298aa4675b782259f;tmpl=searchresults;ac_position=0;checkin=2019-11-13;class_interval=1;dest_id=-3096108;dest_type=city;group_adults=1;group_children=0;interval=7;label_click=undef;raw_dest_type=city;room1=A;sb_price_type=total;shw_aparth=1;slp_r_match=0;srpvid=342d61a6136e0012;ssb=empty;top_ufis=1&amp;;nflt=pri%3D1%3B;rsf=">
+											<label class="bui-checkbox">
+											<div class="bui-checkbox__label filter_item css-checkbox">
+													<input class="bui-checkbox__input js-bui-checkbox__input" type="checkbox">
 				
-				<div class="owl-slider-overlay">
+											<span class="filter_label
+											">
+											إلغاء مجاني
+
+											</span>
+											<small class="filter_count">
+											18
+											</small>
+											</div>
+											</label>
+											</a>
+									<a data-id="pri-2" tabindex="-1" data-name="pri" data-value="892" data-count="262" class=" filterelement        " href="/searchresults.en-gb.html?aid=1167535;label=193466969829535;sid=a014032a18947d8298aa4675b782259f;tmpl=searchresults;ac_position=0;checkin=2019-11-13;class_interval=1;dest_id=-3096108;dest_type=city;group_adults=1;group_children=0;interval=7;label_click=undef;raw_dest_type=city;room1=A;sb_price_type=total;shw_aparth=1;slp_r_match=0;srpvid=342d61a6136e0012;ssb=empty;top_ufis=1&amp;;nflt=pri%3D1%3B;rsf=">
+										<label class="bui-checkbox">
+										<div class="bui-checkbox__label filter_item css-checkbox">
+												<input class="bui-checkbox__input js-bui-checkbox__input" type="checkbox">
+			
+										<span class="filter_label
+										">
+										 حجز بدون بطاقة ائتمان
+										</span>
+										<small class="filter_count">
+										10
+										</small>
+										</div>
+										</label>
+										</a>
+
+										<a data-id="pri-2" tabindex="-1" data-name="pri" data-value="892" data-count="262" class=" filterelement        " href="/searchresults.en-gb.html?aid=1167535;label=193466969829535;sid=a014032a18947d8298aa4675b782259f;tmpl=searchresults;ac_position=0;checkin=2019-11-13;class_interval=1;dest_id=-3096108;dest_type=city;group_adults=1;group_children=0;interval=7;label_click=undef;raw_dest_type=city;room1=A;sb_price_type=total;shw_aparth=1;slp_r_match=0;srpvid=342d61a6136e0012;ssb=empty;top_ufis=1&amp;;nflt=pri%3D1%3B;rsf=">
+											<label class="bui-checkbox">
+											<div class="bui-checkbox__label filter_item css-checkbox">
+													<input class="bui-checkbox__input js-bui-checkbox__input" type="checkbox">
 				
-				<div class="container">
+											<span class="filter_label
+											">
+											لا الدفع المسبق
+
+											</span>
+											<small class="filter_count">
+											40
+											</small>
+											</div>
+											</label>
+											</a>
+										<br/>
+											
+
+													<a data-id="pri-2" tabindex="-1" data-name="pri" data-value="892" data-count="262" class=" filterelement        " href="/searchresults.en-gb.html?aid=1167535;label=193466969829535;sid=a014032a18947d8298aa4675b782259f;tmpl=searchresults;ac_position=0;checkin=2019-11-13;class_interval=1;dest_id=-3096108;dest_type=city;group_adults=1;group_children=0;interval=7;label_click=undef;raw_dest_type=city;room1=A;sb_price_type=total;shw_aparth=1;slp_r_match=0;srpvid=342d61a6136e0012;ssb=empty;top_ufis=1&amp;;nflt=pri%3D1%3B;rsf=">
+														<label class="bui-checkbox">
+														<div class="bui-checkbox__label filter_item css-checkbox">
+																<input class="bui-checkbox__input js-bui-checkbox__input" type="checkbox">
+							
+														<span class="filter_label
+														">
+														شامل وجبة الإفطار
+
+	
+														</span>
+														<small class="filter_count">
+														180
+														</small>
+														</div>
+														</label>
+														</a>
+
+
+							</div>
+							</div>
+							<div id="filter_class_tracking" class="filterbox_tracking"></div>
+							<div class="
+							filterbox
+							" id="filter_class" data-id="filter_class" data-et-view="    ">
+							<div class="
+							filtercategory
+							 icon_filtercategory_container">
+							<h5 class="filtercategory-title">
+									تصنيف النجوم
+
+							</h5>
+							</div>
+							<div class="filteroptions" role="group">
+									<a data-id="pri-2" tabindex="-1" data-name="pri" data-value="892" data-count="262" class=" filterelement        " href="/searchresults.en-gb.html?aid=1167535;label=193466969829535;sid=a014032a18947d8298aa4675b782259f;tmpl=searchresults;ac_position=0;checkin=2019-11-13;class_interval=1;dest_id=-3096108;dest_type=city;group_adults=1;group_children=0;interval=7;label_click=undef;raw_dest_type=city;room1=A;sb_price_type=total;shw_aparth=1;slp_r_match=0;srpvid=342d61a6136e0012;ssb=empty;top_ufis=1&amp;;nflt=pri%3D1%3B;rsf=">
+										<label class="bui-checkbox">
+										<div class="bui-checkbox__label filter_item css-checkbox">
+												<input class="bui-checkbox__input js-bui-checkbox__input" type="checkbox">
+			
+										<span class="filter_label
+										">
+										 غير مصنف
+
+
+										</span>
+										<small class="filter_count">
+										180
+										</small>
+										</div>
+										</label>
+										</a>
+										<br/>
+										<a data-id="pri-2" tabindex="-1" data-name="pri" data-value="892" data-count="262" class=" filterelement        " href="/searchresults.en-gb.html?aid=1167535;label=193466969829535;sid=a014032a18947d8298aa4675b782259f;tmpl=searchresults;ac_position=0;checkin=2019-11-13;class_interval=1;dest_id=-3096108;dest_type=city;group_adults=1;group_children=0;interval=7;label_click=undef;raw_dest_type=city;room1=A;sb_price_type=total;shw_aparth=1;slp_r_match=0;srpvid=342d61a6136e0012;ssb=empty;top_ufis=1&amp;;nflt=pri%3D1%3B;rsf=">
+											<label class="bui-checkbox">
+											<div class="bui-checkbox__label filter_item css-checkbox">
+													<input class="bui-checkbox__input js-bui-checkbox__input" type="checkbox">
 				
-				<div class="owl-caption">
-				<h2 data-aos="fade-right" data-aos-delay="100">Flys Eagle</h2>
-				<h1 data-aos="fade-left" data-aos-delay="200">حجز تذاكر الطيران بافضل الاسعار </h1>
-				<h5 data-aos="fade-right" data-aos-delay="300">وكلاء معتمدون لجميع خطوط الطيران العربية والعالمية </h5>
+											<span class="filter_label
+											">
+											نجمة   <i class="fa fa-star"></i>
+	
+	
+											</span>
+											<small class="filter_count">
+											180
+											</small>
+											</div>
+											</label>
+											</a>
+											<br/>
+											<a data-id="pri-2" tabindex="-1" data-name="pri" data-value="892" data-count="262" class=" filterelement        " href="/searchresults.en-gb.html?aid=1167535;label=193466969829535;sid=a014032a18947d8298aa4675b782259f;tmpl=searchresults;ac_position=0;checkin=2019-11-13;class_interval=1;dest_id=-3096108;dest_type=city;group_adults=1;group_children=0;interval=7;label_click=undef;raw_dest_type=city;room1=A;sb_price_type=total;shw_aparth=1;slp_r_match=0;srpvid=342d61a6136e0012;ssb=empty;top_ufis=1&amp;;nflt=pri%3D1%3B;rsf=">
+												<label class="bui-checkbox">
+												<div class="bui-checkbox__label filter_item css-checkbox">
+														<input class="bui-checkbox__input js-bui-checkbox__input" type="checkbox">
+					
+												<span class="filter_label
+												">
+												نجمتين  <i class="fa fa-star"></i> <i class="fa fa-star"></i>
+		
+		
+												</span>
+												<small class="filter_count">
+												180
+												</small>
+												</div>
+												</label>
+												</a>
+												<br/>
+												<a data-id="pri-2" tabindex="-1" data-name="pri" data-value="892" data-count="262" class=" filterelement        " href="/searchresults.en-gb.html?aid=1167535;label=193466969829535;sid=a014032a18947d8298aa4675b782259f;tmpl=searchresults;ac_position=0;checkin=2019-11-13;class_interval=1;dest_id=-3096108;dest_type=city;group_adults=1;group_children=0;interval=7;label_click=undef;raw_dest_type=city;room1=A;sb_price_type=total;shw_aparth=1;slp_r_match=0;srpvid=342d61a6136e0012;ssb=empty;top_ufis=1&amp;;nflt=pri%3D1%3B;rsf=">
+													<label class="bui-checkbox">
+													<div class="bui-checkbox__label filter_item css-checkbox">
+															<input class="bui-checkbox__input js-bui-checkbox__input" type="checkbox">
+						
+													<span class="filter_label
+													">
+													 ثلاثة نجوم  <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i>
+			
+			
+													</span>
+													<small class="filter_count">
+													180
+													</small>
+													</div>
+													</label>
+													</a>
+													<br/>
+													<a data-id="pri-2" tabindex="-1" data-name="pri" data-value="892" data-count="262" class=" filterelement        " href="/searchresults.en-gb.html?aid=1167535;label=193466969829535;sid=a014032a18947d8298aa4675b782259f;tmpl=searchresults;ac_position=0;checkin=2019-11-13;class_interval=1;dest_id=-3096108;dest_type=city;group_adults=1;group_children=0;interval=7;label_click=undef;raw_dest_type=city;room1=A;sb_price_type=total;shw_aparth=1;slp_r_match=0;srpvid=342d61a6136e0012;ssb=empty;top_ufis=1&amp;;nflt=pri%3D1%3B;rsf=">
+														<label class="bui-checkbox">
+														<div class="bui-checkbox__label filter_item css-checkbox">
+																<input class="bui-checkbox__input js-bui-checkbox__input" type="checkbox">
+							
+														<span class="filter_label
+														">
+														 أربع نجوم   <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i>
 				
-				<div class="more-btn-container" data-aos="fade-up" data-aos-delay="300">
 				
-				<a href="#" class="custom-btn owl-slider-book">
-				<i class="top-border"></i>
-				<i class="left-border"></i>
-				<span><i class="fa fa-calendar" aria-hidden="true"></i>أحجز الأن</span>
-				<i class="right-border"></i>
-				<i class="bottom-border"></i>
-				</a>
+														</span>
+														<small class="filter_count">
+														180
+														</small>
+														</div>
+														</label>
+														</a>
+														<br/>
+														<a data-id="pri-2" tabindex="-1" data-name="pri" data-value="892" data-count="262" class=" filterelement        " href="/searchresults.en-gb.html?aid=1167535;label=193466969829535;sid=a014032a18947d8298aa4675b782259f;tmpl=searchresults;ac_position=0;checkin=2019-11-13;class_interval=1;dest_id=-3096108;dest_type=city;group_adults=1;group_children=0;interval=7;label_click=undef;raw_dest_type=city;room1=A;sb_price_type=total;shw_aparth=1;slp_r_match=0;srpvid=342d61a6136e0012;ssb=empty;top_ufis=1&amp;;nflt=pri%3D1%3B;rsf=">
+															<label class="bui-checkbox">
+															<div class="bui-checkbox__label filter_item css-checkbox">
+																	<input class="bui-checkbox__input js-bui-checkbox__input" type="checkbox">
+								
+															<span class="filter_label
+															">
+															 خمس نجوم  <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i>
+					
+					
+															</span>
+															<small class="filter_count">
+															180
+															</small>
+															</div>
+															</label>
+															</a>
+							</div>
+							</div>
+							<div id="filter_distance_tracking" class="filterbox_tracking"></div>
+							<div class="
+							filterbox
+							" id="filter_distance" data-id="filter_distance" data-et-view="    ">
+							<div class="
+							filtercategory
+							 icon_filtercategory_container">
+							<h5 class="filtercategory-title">
+									المسافة من وسط المدينة
+
+							</h5>
+							</div>
+							<div class="filteroptions" role="group">
+									<a data-id="pri-2" tabindex="-1" data-name="pri" data-value="892" data-count="262" class=" filterelement        " href="/searchresults.en-gb.html?aid=1167535;label=193466969829535;sid=a014032a18947d8298aa4675b782259f;tmpl=searchresults;ac_position=0;checkin=2019-11-13;class_interval=1;dest_id=-3096108;dest_type=city;group_adults=1;group_children=0;interval=7;label_click=undef;raw_dest_type=city;room1=A;sb_price_type=total;shw_aparth=1;slp_r_match=0;srpvid=342d61a6136e0012;ssb=empty;top_ufis=1&amp;;nflt=pri%3D1%3B;rsf=">
+										<label class="bui-checkbox">
+										<div class="bui-checkbox__label filter_item css-checkbox">
+												<input class="bui-checkbox__input js-bui-checkbox__input" type="checkbox">
+			
+										<span class="filter_label
+										">
+										  مسافة تقل عن 1 كيلو متر
+
+
+										</span>
+										<small class="filter_count">
+										180
+										</small>
+										</div>
+										</label>
+										</a>
+
+										<a data-id="pri-2" tabindex="-1" data-name="pri" data-value="892" data-count="262" class=" filterelement        " href="/searchresults.en-gb.html?aid=1167535;label=193466969829535;sid=a014032a18947d8298aa4675b782259f;tmpl=searchresults;ac_position=0;checkin=2019-11-13;class_interval=1;dest_id=-3096108;dest_type=city;group_adults=1;group_children=0;interval=7;label_click=undef;raw_dest_type=city;room1=A;sb_price_type=total;shw_aparth=1;slp_r_match=0;srpvid=342d61a6136e0012;ssb=empty;top_ufis=1&amp;;nflt=pri%3D1%3B;rsf=">
+											<label class="bui-checkbox">
+											<div class="bui-checkbox__label filter_item css-checkbox">
+													<input class="bui-checkbox__input js-bui-checkbox__input" type="checkbox">
 				
-				</div>
+											<span class="filter_label
+											">
+											  مسافة تقل عن 3 كيلو متر
+	
+	
+											</span>
+											<small class="filter_count">
+											180
+											</small>
+											</div>
+											</label>
+											</a>
+
+											<a data-id="pri-2" tabindex="-1" data-name="pri" data-value="892" data-count="262" class=" filterelement        " href="/searchresults.en-gb.html?aid=1167535;label=193466969829535;sid=a014032a18947d8298aa4675b782259f;tmpl=searchresults;ac_position=0;checkin=2019-11-13;class_interval=1;dest_id=-3096108;dest_type=city;group_adults=1;group_children=0;interval=7;label_click=undef;raw_dest_type=city;room1=A;sb_price_type=total;shw_aparth=1;slp_r_match=0;srpvid=342d61a6136e0012;ssb=empty;top_ufis=1&amp;;nflt=pri%3D1%3B;rsf=">
+												<label class="bui-checkbox">
+												<div class="bui-checkbox__label filter_item css-checkbox">
+														<input class="bui-checkbox__input js-bui-checkbox__input" type="checkbox">
+					
+												<span class="filter_label
+												">
+												  مسافة تقل عن 5 كيلو متر
+		
+		
+												</span>
+												<small class="filter_count">
+												180
+												</small>
+												</div>
+												</label>
+												</a>
+							</div>
+							</div>
+							<div id="filter_popular_activities_tracking" class="filterbox_tracking"></div>
+							<div class="
+							filterbox
+							" id="filter_popular_activities" data-id="filter_popular_activities" data-et-view="    ">
+							<div class="
+							filtercategory
+							 icon_filtercategory_container">
+							<h5 class="filtercategory-title">
+									أشياء ممتعة 
+
+							</h5>
+							</div>
+							<div class="filteroptions" role="group">
+									<a data-id="pri-2" tabindex="-1" data-name="pri" data-value="892" data-count="262" class=" filterelement        " href="/searchresults.en-gb.html?aid=1167535;label=193466969829535;sid=a014032a18947d8298aa4675b782259f;tmpl=searchresults;ac_position=0;checkin=2019-11-13;class_interval=1;dest_id=-3096108;dest_type=city;group_adults=1;group_children=0;interval=7;label_click=undef;raw_dest_type=city;room1=A;sb_price_type=total;shw_aparth=1;slp_r_match=0;srpvid=342d61a6136e0012;ssb=empty;top_ufis=1&amp;;nflt=pri%3D1%3B;rsf=">
+										<label class="bui-checkbox">
+										<div class="bui-checkbox__label filter_item css-checkbox">
+												<input class="bui-checkbox__input js-bui-checkbox__input" type="checkbox">
+			
+										<span class="filter_label
+										">
+										مركز اللياقة البدنية
+
+
+
+										</span>
+										<small class="filter_count">
+										18
+										</small>
+										</div>
+										</label>
+										</a>
+										<br/>
+
+										<a data-id="pri-2" tabindex="-1" data-name="pri" data-value="892" data-count="262" class=" filterelement        " href="/searchresults.en-gb.html?aid=1167535;label=193466969829535;sid=a014032a18947d8298aa4675b782259f;tmpl=searchresults;ac_position=0;checkin=2019-11-13;class_interval=1;dest_id=-3096108;dest_type=city;group_adults=1;group_children=0;interval=7;label_click=undef;raw_dest_type=city;room1=A;sb_price_type=total;shw_aparth=1;slp_r_match=0;srpvid=342d61a6136e0012;ssb=empty;top_ufis=1&amp;;nflt=pri%3D1%3B;rsf=">
+											<label class="bui-checkbox">
+											<div class="bui-checkbox__label filter_item css-checkbox">
+													<input class="bui-checkbox__input js-bui-checkbox__input" type="checkbox">
 				
-				</div>
+											<span class="filter_label
+											">
+											  مساج
+	
+	
+	
+											</span>
+											<small class="filter_count">
+											18
+											</small>
+											</div>
+											</label>
+											</a>
+											<br/>
+											<a data-id="pri-2" tabindex="-1" data-name="pri" data-value="892" data-count="262" class=" filterelement        " href="/searchresults.en-gb.html?aid=1167535;label=193466969829535;sid=a014032a18947d8298aa4675b782259f;tmpl=searchresults;ac_position=0;checkin=2019-11-13;class_interval=1;dest_id=-3096108;dest_type=city;group_adults=1;group_children=0;interval=7;label_click=undef;raw_dest_type=city;room1=A;sb_price_type=total;shw_aparth=1;slp_r_match=0;srpvid=342d61a6136e0012;ssb=empty;top_ufis=1&amp;;nflt=pri%3D1%3B;rsf=">
+												<label class="bui-checkbox">
+												<div class="bui-checkbox__label filter_item css-checkbox">
+														<input class="bui-checkbox__input js-bui-checkbox__input" type="checkbox">
+					
+												<span class="filter_label
+												">
+												  سونا 
+		
+		
+		
+												</span>
+												<small class="filter_count">
+												18
+												</small>
+												</div>
+												</label>
+												</a>
+												<br/>
+							</div>
+							</div>
+							<div id="filter_out_of_stock_tracking" class="filterbox_tracking"></div>
+							<div class="
+							filterbox
+							" id="filter_out_of_stock" data-id="filter_out_of_stock" data-et-view="    ">
+							<div class="
+							filtercategory
+							 icon_filtercategory_container">
+							<h5 class="filtercategory-title">
+							المتاح
+							</h5>
+							</div>
+							<div class="filteroptions" role="group">
+									<a data-id="pri-2" tabindex="-1" data-name="pri" data-value="892" data-count="262" class=" filterelement        " href="/searchresults.en-gb.html?aid=1167535;label=193466969829535;sid=a014032a18947d8298aa4675b782259f;tmpl=searchresults;ac_position=0;checkin=2019-11-13;class_interval=1;dest_id=-3096108;dest_type=city;group_adults=1;group_children=0;interval=7;label_click=undef;raw_dest_type=city;room1=A;sb_price_type=total;shw_aparth=1;slp_r_match=0;srpvid=342d61a6136e0012;ssb=empty;top_ufis=1&amp;;nflt=pri%3D1%3B;rsf=">
+										<label class="bui-checkbox">
+										<div class="bui-checkbox__label filter_item css-checkbox">
+												<input class="bui-checkbox__input js-bui-checkbox__input" type="checkbox">
+			
+										<span class="filter_label
+										">
+										فقط عرض الخصائص المتاحة 
+
+
+
+										</span>
+										<small class="filter_count">
+										18
+										</small>
+										</div>
+										</label>
+										</a>
+						
+
+							</div>
+							</div>
+							<div id="filter_deal_tracking" class="filterbox_tracking"></div>
+							<div class="
+							filterbox
+							" id="filter_deal" data-id="filter_deal" data-et-view="    ">
+							<div class="
+							filtercategory
+							 icon_filtercategory_container">
+							<h5 class="filtercategory-title">
+							الصفقات
+							</h5>
+							</div>
+							<div class="filteroptions" role="group">
+									<a data-id="pri-2" tabindex="-1" data-name="pri" data-value="892" data-count="262" class=" filterelement        " href="/searchresults.en-gb.html?aid=1167535;label=193466969829535;sid=a014032a18947d8298aa4675b782259f;tmpl=searchresults;ac_position=0;checkin=2019-11-13;class_interval=1;dest_id=-3096108;dest_type=city;group_adults=1;group_children=0;interval=7;label_click=undef;raw_dest_type=city;room1=A;sb_price_type=total;shw_aparth=1;slp_r_match=0;srpvid=342d61a6136e0012;ssb=empty;top_ufis=1&amp;;nflt=pri%3D1%3B;rsf=">
+										<label class="bui-checkbox">
+										<div class="bui-checkbox__label filter_item css-checkbox">
+												<input class="bui-checkbox__input js-bui-checkbox__input" type="checkbox">
+			
+										<span class="filter_label
+										">
+												عرض جميع الصفقات
+
+
+
+										</span>
+										<small class="filter_count">
+										18
+										</small>
+										</div>
+										</label>
+										</a>
+							</div>
+							</div>
+							<div id="filter_24hr_reception_tracking" class="filterbox_tracking"></div>
+							<div class="
+							filterbox
+							" id="filter_24hr_reception" data-id="filter_24hr_reception" data-et-view="    ">
+							<div class="
+							filtercategory
+							 icon_filtercategory_container">
+							<h5 class="filtercategory-title">
+									استقبال على مدار 24 ساعة
+
+							</h5>
+							</div>
+							<div class="filteroptions" role="group">
+									<a data-id="pri-2" tabindex="-1" data-name="pri" data-value="892" data-count="262" class=" filterelement        " href="/searchresults.en-gb.html?aid=1167535;label=193466969829535;sid=a014032a18947d8298aa4675b782259f;tmpl=searchresults;ac_position=0;checkin=2019-11-13;class_interval=1;dest_id=-3096108;dest_type=city;group_adults=1;group_children=0;interval=7;label_click=undef;raw_dest_type=city;room1=A;sb_price_type=total;shw_aparth=1;slp_r_match=0;srpvid=342d61a6136e0012;ssb=empty;top_ufis=1&amp;;nflt=pri%3D1%3B;rsf=">
+										<label class="bui-checkbox">
+										<div class="bui-checkbox__label filter_item css-checkbox">
+												<input class="bui-checkbox__input js-bui-checkbox__input" type="checkbox">
+			
+										<span class="filter_label
+										">
+										مكتب الاستقبال مفتوح 24/7
+
+
+
+										</span>
+										<small class="filter_count">
+										18
+										</small>
+										</div>
+										</label>
+										</a>
+							</div>
+							</div>
+							<div id="filter_mealplan_tracking" class="filterbox_tracking"></div>
+							<div class="
+							filterbox
+							 track_meal_plan
+							" id="filter_mealplan" data-id="filter_mealplan" data-et-view="    ">
+							<div class="
+							filtercategory
+							 icon_filtercategory_container">
+							<h5 class="filtercategory-title">
+							الوجبات
+							</h5>
+							</div>
+							<div class="filteroptions" role="group">
+									<a data-id="pri-2" tabindex="-1" data-name="pri" data-value="892" data-count="262" class=" filterelement        " href="/searchresults.en-gb.html?aid=1167535;label=193466969829535;sid=a014032a18947d8298aa4675b782259f;tmpl=searchresults;ac_position=0;checkin=2019-11-13;class_interval=1;dest_id=-3096108;dest_type=city;group_adults=1;group_children=0;interval=7;label_click=undef;raw_dest_type=city;room1=A;sb_price_type=total;shw_aparth=1;slp_r_match=0;srpvid=342d61a6136e0012;ssb=empty;top_ufis=1&amp;;nflt=pri%3D1%3B;rsf=">
+										<label class="bui-checkbox">
+										<div class="bui-checkbox__label filter_item css-checkbox">
+												<input class="bui-checkbox__input js-bui-checkbox__input" type="checkbox">
+			
+										<span class="filter_label
+										">
+										شامل وجبة الإفطار
+
+
+
+
+										</span>
+										<small class="filter_count">
+										18
+										</small>
+										</div>
+										</label>
+										</a>
+										<a data-id="pri-2" tabindex="-1" data-name="pri" data-value="892" data-count="262" class=" filterelement        " href="/searchresults.en-gb.html?aid=1167535;label=193466969829535;sid=a014032a18947d8298aa4675b782259f;tmpl=searchresults;ac_position=0;checkin=2019-11-13;class_interval=1;dest_id=-3096108;dest_type=city;group_adults=1;group_children=0;interval=7;label_click=undef;raw_dest_type=city;room1=A;sb_price_type=total;shw_aparth=1;slp_r_match=0;srpvid=342d61a6136e0012;ssb=empty;top_ufis=1&amp;;nflt=pri%3D1%3B;rsf=">
+											<label class="bui-checkbox">
+											<div class="bui-checkbox__label filter_item css-checkbox">
+													<input class="bui-checkbox__input js-bui-checkbox__input" type="checkbox">
 				
-				</div>
+											<span class="filter_label
+											">
+											جميع الوجبات مشمولة
+
+	
+	
+	
+	
+											</span>
+											<small class="filter_count">
+											18
+											</small>
+											</div>
+											</label>
+											</a>
+
+											<a data-id="pri-2" tabindex="-1" data-name="pri" data-value="892" data-count="262" class=" filterelement        " href="/searchresults.en-gb.html?aid=1167535;label=193466969829535;sid=a014032a18947d8298aa4675b782259f;tmpl=searchresults;ac_position=0;checkin=2019-11-13;class_interval=1;dest_id=-3096108;dest_type=city;group_adults=1;group_children=0;interval=7;label_click=undef;raw_dest_type=city;room1=A;sb_price_type=total;shw_aparth=1;slp_r_match=0;srpvid=342d61a6136e0012;ssb=empty;top_ufis=1&amp;;nflt=pri%3D1%3B;rsf=">
+												<label class="bui-checkbox">
+												<div class="bui-checkbox__label filter_item css-checkbox">
+														<input class="bui-checkbox__input js-bui-checkbox__input" type="checkbox">
+					
+												<span class="filter_label
+												">
+												الإفطار والعشاء المدرجة
+
+	
+		
+		
+		
+		
+												</span>
+												<small class="filter_count">
+												18
+												</small>
+												</div>
+												</label>
+												</a>
+							</div>
+							</div>
+							<div id="filter_twin_double_tracking" class="filterbox_tracking"></div>
+							<div class="
+							filterbox
+							" id="filter_twin_double" data-id="filter_twin_double" data-et-view="    ">
+							<div class="
+							filtercategory
+							 icon_filtercategory_container">
+							<h5 class="filtercategory-title">
+									تفضيلات السرير
+
+							</h5>
+							</div>
+							<div class="filteroptions" role="group">
+		
+						
+							<a data-id="pri-2" tabindex="-1" data-name="pri" data-value="892" data-count="262" class=" filterelement        " href="/searchresults.en-gb.html?aid=1167535;label=193466969829535;sid=a014032a18947d8298aa4675b782259f;tmpl=searchresults;ac_position=0;checkin=2019-11-13;class_interval=1;dest_id=-3096108;dest_type=city;group_adults=1;group_children=0;interval=7;label_click=undef;raw_dest_type=city;room1=A;sb_price_type=total;shw_aparth=1;slp_r_match=0;srpvid=342d61a6136e0012;ssb=empty;top_ufis=1&amp;;nflt=pri%3D1%3B;rsf=">
+								<label class="bui-checkbox">
+								<div class="bui-checkbox__label filter_item css-checkbox">
+										<input class="bui-checkbox__input js-bui-checkbox__input" type="checkbox">
+	
+								<span class="filter_label
+								">
+								سرير مزدوج
+
+
+
+
+
+
+								</span>
+								<small class="filter_count">
+								18
+								</small>
+								</div>
+								</label>
+								</a>
+								<br/>
+								<a data-id="pri-2" tabindex="-1" data-name="pri" data-value="892" data-count="262" class=" filterelement        " href="/searchresults.en-gb.html?aid=1167535;label=193466969829535;sid=a014032a18947d8298aa4675b782259f;tmpl=searchresults;ac_position=0;checkin=2019-11-13;class_interval=1;dest_id=-3096108;dest_type=city;group_adults=1;group_children=0;interval=7;label_click=undef;raw_dest_type=city;room1=A;sb_price_type=total;shw_aparth=1;slp_r_match=0;srpvid=342d61a6136e0012;ssb=empty;top_ufis=1&amp;;nflt=pri%3D1%3B;rsf=">
+									<label class="bui-checkbox">
+									<div class="bui-checkbox__label filter_item css-checkbox">
+											<input class="bui-checkbox__input js-bui-checkbox__input" type="checkbox">
+		
+									<span class="filter_label
+									">
+									سرير لفرد واحد
+	
+	
+	
+	
+	
+	
+									</span>
+									<small class="filter_count">
+									18
+									</small>
+									</div>
+									</label>
+									</a>
+							</div>
+							</div>
+			
+							<div id="filter_facilities_tracking" class="filterbox_tracking"></div>
+							<div class="
+							filterbox
+							 filterbox_limited
+							 sr_filters_show_more
+							" id="filter_facilities" data-id="filter_facilities" data-et-view="    ">
+							<div class="
+							filtercategory
+							 icon_filtercategory_container">
+							<h5 class="filtercategory-title">
+							المرافق
+
+							</h5>
+							</div>
+							<div class="filteroptions" role="group">
+		
+						
+									<a data-id="pri-2" tabindex="-1" data-name="pri" data-value="892" data-count="262" class=" filterelement        " href="/searchresults.en-gb.html?aid=1167535;label=193466969829535;sid=a014032a18947d8298aa4675b782259f;tmpl=searchresults;ac_position=0;checkin=2019-11-13;class_interval=1;dest_id=-3096108;dest_type=city;group_adults=1;group_children=0;interval=7;label_click=undef;raw_dest_type=city;room1=A;sb_price_type=total;shw_aparth=1;slp_r_match=0;srpvid=342d61a6136e0012;ssb=empty;top_ufis=1&amp;;nflt=pri%3D1%3B;rsf=">
+										<label class="bui-checkbox">
+										<div class="bui-checkbox__label filter_item css-checkbox">
+												<input class="bui-checkbox__input js-bui-checkbox__input" type="checkbox">
+			
+										<span class="filter_label
+										">
+										أنترنت مجاني
+		
+		
+		
+		
+		
+		
+										</span>
+										<small class="filter_count">
+										180
+										</small>
+										</div>
+										</label>
+										</a>
+										<br/>
+										<a data-id="pri-2" tabindex="-1" data-name="pri" data-value="892" data-count="262" class=" filterelement        " href="/searchresults.en-gb.html?aid=1167535;label=193466969829535;sid=a014032a18947d8298aa4675b782259f;tmpl=searchresults;ac_position=0;checkin=2019-11-13;class_interval=1;dest_id=-3096108;dest_type=city;group_adults=1;group_children=0;interval=7;label_click=undef;raw_dest_type=city;room1=A;sb_price_type=total;shw_aparth=1;slp_r_match=0;srpvid=342d61a6136e0012;ssb=empty;top_ufis=1&amp;;nflt=pri%3D1%3B;rsf=">
+											<label class="bui-checkbox">
+											<div class="bui-checkbox__label filter_item css-checkbox">
+													<input class="bui-checkbox__input js-bui-checkbox__input" type="checkbox">
 				
-				</div>
+											<span class="filter_label
+											">
+											غرف ممنوع فيها التدخين
+
+			
+			
+			
+			
+			
+			
+											</span>
+											<small class="filter_count">
+											18
+											</small>
+											</div>
+											</label>
+											</a>
+											<a data-id="pri-2" tabindex="-1" data-name="pri" data-value="892" data-count="262" class=" filterelement        " href="/searchresults.en-gb.html?aid=1167535;label=193466969829535;sid=a014032a18947d8298aa4675b782259f;tmpl=searchresults;ac_position=0;checkin=2019-11-13;class_interval=1;dest_id=-3096108;dest_type=city;group_adults=1;group_children=0;interval=7;label_click=undef;raw_dest_type=city;room1=A;sb_price_type=total;shw_aparth=1;slp_r_match=0;srpvid=342d61a6136e0012;ssb=empty;top_ufis=1&amp;;nflt=pri%3D1%3B;rsf=">
+												<label class="bui-checkbox">
+												<div class="bui-checkbox__label filter_item css-checkbox">
+														<input class="bui-checkbox__input js-bui-checkbox__input" type="checkbox">
+					
+												<span class="filter_label
+												">
+												غرفة للعائلة
+	
 				
-				</div>
 				
-				</div>
-
-<div class="item">
-
-<div class="owl-slider-block dark-image" style="background-image:url(images/slider/151005.jpg);">
-
-<div class="owl-slider-overlay">
-
-<div class="container">
-
-<div class="owl-caption">
-<h2 data-aos="fade-right" data-aos-delay="100">Flys Eagle</h2>
-<h1 data-aos="fade-left" data-aos-delay="200">سافر إلي أفضل المناطق السياحية عبر العالم</h1>
-<h5 data-aos="fade-right" data-aos-delay="300"> نقل سياحى – اصدار تاشيرات سياحية – حج وعمرة	</h5>
-<div class="more-btn-container" data-aos="fade-up" data-aos-delay="300">
-
-<a href="#" class="custom-btn owl-slider-book">
-<i class="top-border"></i>
-<i class="left-border"></i>
-<span><i class="fa fa-calendar" aria-hidden="true"></i>أحجز الأن</span>
-<i class="right-border"></i>
-<i class="bottom-border"></i>
-</a>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-
-<div class="item">
-
-<div class="owl-slider-block" style="background-image:url(images/slider/hh.jpg);">
-
-<div class="owl-slider-overlay">
-
-<div class="container">
-
-<div class="owl-caption">
-		<h2 data-aos="fade-right" data-aos-delay="100">Flys Eagle</h2>
-		<h1 data-aos="fade-left" data-aos-delay="200">حجز الفنادق في جميع الدول   </h1>
-<h5 data-aos="fade-right" data-aos-delay="300">مميزون فى حجز الفنادق داخل مصر وحول العالم  </h5>
-
-<div class="more-btn-container" data-aos="fade-up" data-aos-delay="300">
-
-<a href="#" class="custom-btn owl-slider-book">
-<i class="top-border"></i>
-<i class="left-border"></i>
-<span><i class="fa fa-calendar" aria-hidden="true"></i>أحجز الأن</span>
-<i class="right-border"></i>
-<i class="bottom-border"></i>
-</a>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-
-
-</div>
-
-<div class="scroll-down-gp">
-<a href="#scroll-body" class="scroll-downs">
-<div class="scroller"></div>
-</a>
-</div>
-</section>
-
-<div id="scroll-body"></div>
-
-<section class="find-room section">
-
-<div class="container">
-
-<div class="row">
-
-<div class="col-md-4">
-
-<div class="section-header">
-<h2>أبحث عن رحله أو غرفة</h2>
-<p>عندما تريد أن تكون ضيفنا؟</p>
-</div>
-
-</div>
-
-
-<div class="col-md-8">
-
-<div class="row">
-
-<div class="col-sm-6">
-
-<div class="input-group date">
-<span class="input-group-addon"><i class="fa fa-calendar" aria-hidden="true"></i></span><input type="text" class="form-control" placeholder="وقت الوصول"><i class="fa fa-caret-down" aria-hidden="true"></i>
-</div>
-
-</div>
-
-
-<div class="col-sm-6">
-
-<div class="input-group date">
-<span class="input-group-addon"><i class="fa fa-calendar" aria-hidden="true"></i></span><input type="text" class="form-control" placeholder="وقت المغادرة"><i class="fa fa-caret-down" aria-hidden="true"></i>
-</div>
-
-</div>
-
-
-<div class="col-sm-4">
-
-<div class="input-group">
-<span class="input-group-addon"><i class="fa fa-male" aria-hidden="true"></i></span><input type="number" class="form-control" placeholder="عدد البالغين">
-</div>
-
-</div>
-
-
-<div class="col-sm-4">
-
-<div class="input-group">
-<span class="input-group-addon"><i class="fa fa-child" aria-hidden="true"></i></span><input type="number" class="form-control" placeholder="عدد الأطفال">
-</div>
-
-</div>
-
-
-<div class="col-sm-4">
-
-<div class="find-room-btn">
-<button type="submit" class="btn btn-default"><i class="fa fa-search" aria-hidden="true"></i> أبحث لي</button>
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</section>
-
-
-<section class="our-activities section section-white">
-
-<div class="container">
-
-<div class="row">
-
-<div class="col-xs-12">
-
-<div class="section-header section-header-light">
-<h2>ما هي خدماتنا</h2>
-<p>نحن شركة شركة  
-		رائدة فى مجال السياحة العامة </p>
-</div>
-
-</div>
-
-</div>
-
-
-<div class="our-activities-owl-gp">
-
-<div id="owl-activities-next" class="btn-next">
-<i class="fa fa-angle-right" aria-hidden="true"></i>
-</div>
-<div id="owl-activities-prev" class="btn-prev">
-<i class="fa fa-angle-left" aria-hidden="true"></i>
-</div>
-
-
-<div id="our-activities-owl" class="owl-carousel">
-
-<div class="item">
-
-<a href="#" class="our-activities-block">
-<div class="our-activities-caption">
-<h3>حجوزات الرحلات </h3>
-<p>حجز تذاكر الطيران بافضل الاسعار</p>
-</div>
-
-<div class="custom-btn">
-<i class="top-border"></i>
-<i class="left-border"></i>
-<span>عرض المزيد</span>
-<i class="right-border"></i>
-<i class="bottom-border"></i>
-</div>
-
-<img src="images/activities/tourist-couple.png" style="max-width: 320px;" alt="test" class="img-responsive">
-</a>
-
-</div>
-
-
-<div class="item">
-
-<a href="#" class="our-activities-block">
-<div class="our-activities-caption">
-<h3> المناطق السياحية  </h3>
-<p>سياحى - تعليمي - ديني</p>
-</div>
-
-<div class="custom-btn">
-<i class="top-border"></i>
-<i class="left-border"></i>
-<span>عرض المزيد</span>
-<i class="right-border"></i>
-<i class="bottom-border"></i>
-</div>
-
-<img src="images/activities/download.jpg"  alt="test" class="img-responsive">
-</a>
-
-</div>
-
-
-<div class="item">
-
-<a href="#" class="our-activities-block">
-<div class="our-activities-caption">
-<h3>حجوزات الطيران</h3>
-<p>وكلاء معتمدون لجميع الخطوط</p>
-</div>
-
-<div class="custom-btn">
-<i class="top-border"></i>
-<i class="left-border"></i>
-<span>عرض المزيد</span>
-<i class="right-border"></i>
-<i class="bottom-border"></i>
-</div>
-
-<img src="images/activities/plane_PNG5257.png" style="height: 270px;" alt="test" class="img-responsive">
-</a>
-
-</div>
-
-</div>
-
-</div>
-
-
-<div class="more-btn-gp">
-
-<a href="#" class="custom-btn custom-btn-light">
-<i class="top-border"></i>
-<i class="left-border"></i>
-<span>عرض الكل</span>
-<i class="right-border"></i>
-<i class="bottom-border"></i>
-</a>
-
-</div>
-
-</div>
-
-</section>
-
-
-<section class="available-room section">
-
-<div class="container">
-
-<div class="row">
-
-<div class="col-xs-12">
-
-<div class="section-header-gp">
-
-<div class="section-header">
-<h2>عروض متاحة</h2>
-<p>عندما تريد أن تكون ضيفنا؟</p>
-</div>
-
-
-<div class="custom-btn owl-available-room">
-<i class="top-border"></i>
-<i class="left-border"></i>
-<div class="custom-btn-arrows">
-<div id="owl-available-room-prev" class="top-btn-prev">
-<i class="fa fa-angle-left" aria-hidden="true"></i>
-</div>
-<div id="owl-available-room-next" class="top-btn-next">
-<i class="fa fa-angle-right" aria-hidden="true"></i>
-</div>
-</div>
-<i class="right-border"></i>
-<i class="bottom-border"></i>
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-
-<div id="available-room-owl" class="owl-carousel">
-
-<div class="item">
-
-<a href="#" class="available-room-block" style="background-image: url('images/rooms/1.png');">
-<span><strong>€829</strong> باليلة الواحدة</span>
-<div class="available-room-caption">
-<h3>جناح ملكي</h3>
-<div class="custom-btn">
-<i class="top-border"></i>
-<i class="left-border"></i>
-<span>أحجز الأن</span>
-<i class="right-border"></i>
-<i class="bottom-border"></i>
-</div>
-</div>
-</a>
-
-</div>
-
-
-<div class="item">
-
-<a href="#" class="available-room-block" style="background-image: url('images/rooms/download.jpg');">
-<span><strong>€690</strong>  ذهاب و عودة</span>
-<div class="available-room-caption">
-<h3>حج و عمرة</h3>
-<div class="custom-btn">
-<i class="top-border"></i>
-<i class="left-border"></i>
-<span>أحجز الأن</span>
-<i class="right-border"></i>
-<i class="bottom-border"></i>
-</div>
-</div>
-</a>
-
-</div>
-
-
-<div class="item">
-
-<a href="#" class="available-room-block" style="background-image: url('images/rooms/people.png');">
-<span> تبدأ من  <strong>€480</strong></span>
-<div class="available-room-caption">
-<h3>رحلات عائلية</h3>
-<div class="custom-btn">
-<i class="top-border"></i>
-<i class="left-border"></i>
-<span>أحجز الأن</span>
-<i class="right-border"></i>
-<i class="bottom-border"></i>
-</div>
-</div>
-</a>
-
-</div>
-
-
-<div class="item">
-
-<a href="#" class="available-room-block" style="background-image: url('images/rooms/turista1-1.png');">
-<span><strong>€229</strong>  غير شامل الضريبة</span>
-<div class="available-room-caption">
-<h3>حجز طيران </h3>
-<div class="custom-btn">
-<i class="top-border"></i>
-<i class="left-border"></i>
-<span>أحجز الأن</span>
-<i class="right-border"></i>
-<i class="bottom-border"></i>
-</div>
-</div>
-</a>
-
-</div>
-
-</div>
-
-
-<div class="more-btn-gp">
-
-<a href="#" class="custom-btn custom-btn-dark">
-<i class="top-border"></i>
-<i class="left-border"></i>
-<span>عرض الكل</span>
-<i class="right-border"></i>
-<i class="bottom-border"></i>
-</a>
-
-</div>
-
-</section>
-
-
-<section class="our-activities section section-white our-gallery">
-
-<div class="container">
-
-<div class="row">
-
-<div class="col-xs-12">
-
-<div class="section-header section-header-light">
-<h2>معرض الصور</h2>
-<p>نحن نقدم أفخم الخدمات</p>
-</div>
-
-</div>
-
-</div>
-
-
-<ul class="filter-button-group">
-<li><button data-filter="*" class="all-filter-button">الكل</button></li>
-<li><button data-filter=".restaurant">الحج و العمرة</button></li>
-<li><button data-filter=".bars">السياحة </button></li>
-<li><button data-filter=".rooms">الفنادق</button></li>
-<li><button data-filter=".lobby">الطيران</button></li>
-</ul>
-
-<div class="grid">
-		<div class="grid-item lobby">
+				
+				
+				
+				
+												</span>
+												<small class="filter_count">
+												18
+												</small>
+												</div>
+												</label>
+												</a>
+												<a data-id="pri-2" tabindex="-1" data-name="pri" data-value="892" data-count="262" class=" filterelement        " href="/searchresults.en-gb.html?aid=1167535;label=193466969829535;sid=a014032a18947d8298aa4675b782259f;tmpl=searchresults;ac_position=0;checkin=2019-11-13;class_interval=1;dest_id=-3096108;dest_type=city;group_adults=1;group_children=0;interval=7;label_click=undef;raw_dest_type=city;room1=A;sb_price_type=total;shw_aparth=1;slp_r_match=0;srpvid=342d61a6136e0012;ssb=empty;top_ufis=1&amp;;nflt=pri%3D1%3B;rsf=">
+													<label class="bui-checkbox">
+													<div class="bui-checkbox__label filter_item css-checkbox">
+															<input class="bui-checkbox__input js-bui-checkbox__input" type="checkbox">
+						
+													<span class="filter_label
+													">
+												محطة شحن السيارة الكهربائية
 		
-		<a href="images/gallery/tt.jpg" class="gallery-item dh-container">
+					
+					
+					
+					
+					
+					
+													</span>
+													<small class="filter_count">
+													18
+													</small>
+													</div>
+													</label>
+													</a>
+
+
+
+									</div>
+							</div>
+							<div id="filter_roomfacilities_tracking" class="filterbox_tracking"></div>
+							<div class="
+							filterbox
+							 filterbox_limited
+							 sr_filters_show_more
+							" id="filter_roomfacilities" data-id="filter_roomfacilities" data-et-view="   HCASeAEaEAJYKfZPCGVTbaTaTaET:1   ">
+							<div class="
+							filtercategory
+							 icon_filtercategory_container">
+							<h5 class="filtercategory-title">
+									مرافق الغرفة
+
+							</h5>
+							</div>
+							<div class="filteroptions" role="group">
 		
-		<div class="gallery-overlay dh-overlay">
+						
+									<a data-id="pri-2" tabindex="-1" data-name="pri" data-value="892" data-count="262" class=" filterelement        " href="/searchresults.en-gb.html?aid=1167535;label=193466969829535;sid=a014032a18947d8298aa4675b782259f;tmpl=searchresults;ac_position=0;checkin=2019-11-13;class_interval=1;dest_id=-3096108;dest_type=city;group_adults=1;group_children=0;interval=7;label_click=undef;raw_dest_type=city;room1=A;sb_price_type=total;shw_aparth=1;slp_r_match=0;srpvid=342d61a6136e0012;ssb=empty;top_ufis=1&amp;;nflt=pri%3D1%3B;rsf=">
+										<label class="bui-checkbox">
+										<div class="bui-checkbox__label filter_item css-checkbox">
+												<input class="bui-checkbox__input js-bui-checkbox__input" type="checkbox">
+			
+										<span class="filter_label
+										">
+											مطبخ كبير
 		
-		<div class="custom-btn">
-		<i class="top-border"></i>
-		<i class="left-border"></i>
-		<span><i class="fa fa-search-plus" aria-hidden="true"></i><p>تكبير </p></span>
-		<i class="right-border"></i>
-		<i class="bottom-border"></i>
+		
+		
+		
+		
+		
+										</span>
+										<small class="filter_count">
+										18
+										</small>
+										</div>
+										</label>
+										</a>
+										<br/>
+										<a data-id="pri-2" tabindex="-1" data-name="pri" data-value="892" data-count="262" class=" filterelement        " href="/searchresults.en-gb.html?aid=1167535;label=193466969829535;sid=a014032a18947d8298aa4675b782259f;tmpl=searchresults;ac_position=0;checkin=2019-11-13;class_interval=1;dest_id=-3096108;dest_type=city;group_adults=1;group_children=0;interval=7;label_click=undef;raw_dest_type=city;room1=A;sb_price_type=total;shw_aparth=1;slp_r_match=0;srpvid=342d61a6136e0012;ssb=empty;top_ufis=1&amp;;nflt=pri%3D1%3B;rsf=">
+											<label class="bui-checkbox">
+											<div class="bui-checkbox__label filter_item css-checkbox">
+													<input class="bui-checkbox__input js-bui-checkbox__input" type="checkbox">
+				
+											<span class="filter_label
+											">
+											حمام خاص بالغرفة
+			
+			
+			
+			
+			
+			
+											</span>
+											<small class="filter_count">
+											18
+											</small>
+											</div>
+											</label>
+											</a>
+									</div>
+							</div>
+
+							</div>
+							</div>
+							<div id="filter_tracking_remaining" class="filterbox_tracking"></div>
+							</fieldset>
+							
+							</form>
+			</div>
 		</div>
-		
-		</div>
-		
-		<img src="images/gallery/tt.jpg" alt="gallery alt images" class="img-responsive responsive-ratio">
-		</a>
-		
-		</div>
-		<div class="grid-item lobby">
-		
-		<a href="images/gallery/NINTCHDBPICT000323958293-e1557395880767.jpg" class="gallery-item dh-container">
-		
-		<div class="gallery-overlay dh-overlay">
-		
-		<div class="custom-btn">
-		<i class="top-border"></i>
-		<i class="left-border"></i>
-		<span><i class="fa fa-search-plus" aria-hidden="true"></i><p>تكبير </p></span>
-		<i class="right-border"></i>
-		<i class="bottom-border"></i>
-		</div>
-		
-		</div>
-		
-		<img src="images/gallery/NINTCHDBPICT000323958293-e1557395880767.jpg" alt="gallery alt images" class="img-responsive responsive-ratio">
-		</a>
-		
-		</div>
-		<div class="grid-item grid-item--height2 restaurant">
-		
-		<a href="images/gallery/download2.jpg" class="gallery-item dh-container">
-		
-		<div class="gallery-overlay dh-overlay">
-		
-		<div class="custom-btn">
-		<i class="top-border"></i>
-		<i class="left-border"></i>
-		<span><i class="fa fa-search-plus" aria-hidden="true"></i><p>تكبير </p></span>
-		<i class="right-border"></i>
-		<i class="bottom-border"></i>
-		</div>
-		
-		</div>
-		
-		<img src="images/gallery/download2.jpg" alt="gallery alt images" class="img-responsive">
-		</a>
-		
-		</div>
+	</div>
+	<div class="col-lg-9">
+	<div class="col-md-4 col-sm-6 col-xs-12">
+	
+	<a href="#" class="available-room-block" style="background-image: url('images/rooms/1.png');">
+	<span><strong>€829</strong>في الليلة</span>
+	<div class="available-room-caption">
+	<h3>جناح ملكي</h3>
+	<div class="custom-btn">
+	<i class="top-border"></i>
+	<i class="left-border"></i>
+	<span>أحجز الأن</span>
+	<i class="right-border"></i>
+	<i class="bottom-border"></i>
+	</div>
+	</div>
+	</a>
+	
+	</div>
+	
+	
+	<div class="col-md-4 col-sm-6 col-xs-12">
+	
+	<a href="#" class="available-room-block" style="background-image: url('images/rooms/2.jpg');">
+	<span><strong>€829</strong>في الليلة</span>
+	<div class="available-room-caption">
+	<h3>جناح </h3>
+	<div class="custom-btn">
+	<i class="top-border"></i>
+	<i class="left-border"></i>
+	<span>أحجز الأن</span>
+	<i class="right-border"></i>
+	<i class="bottom-border"></i>
+	</div>
+	</div>
+	</a>
+	
+	</div>
+	
+	
+	<div class="col-md-4 col-sm-6 col-xs-12">
+	
+	<a href="#" class="available-room-block" style="background-image: url('images/rooms/3.jpg');">
+	<span><strong>€829</strong>في الليلة</span>
+	<div class="available-room-caption">
+	<h3>غرفة مزدوجة</h3>
+	<div class="custom-btn">
+	<i class="top-border"></i>
+	<i class="left-border"></i>
+	<span>أحجز الأن</span>
+	<i class="right-border"></i>
+	<i class="bottom-border"></i>
+	</div>
+	</div>
+	</a>
+	
+	</div>
+	
+	
+	<div class="col-md-4 col-sm-6 col-xs-12">
+	
+	<a href="#" class="available-room-block" style="background-image: url('images/rooms/4.jpg');">
+	<span><strong>€829</strong>في الليلة</span>
+	<div class="available-room-caption">
+	<h3>غرفة لفرد</h3>
+	<div class="custom-btn">
+	<i class="top-border"></i>
+	<i class="left-border"></i>
+	<span>أحجز الأن</span>
+	<i class="right-border"></i>
+	<i class="bottom-border"></i>
+	</div>
+	</div>
+	</a>
+	
+	</div>
+	
+	
+	<div class="col-md-4 col-sm-6 col-xs-12">
+	
+	<a href="#" class="available-room-block" style="background-image: url('images/rooms/1.png');">
+	<span><strong>€829</strong>في الليلة</span>
+	<div class="available-room-caption">
+	<h3>غرفة عائلية</h3>
+	<div class="custom-btn">
+	<i class="top-border"></i>
+	<i class="left-border"></i>
+	<span>أحجز الأن</span>
+	<i class="right-border"></i>
+	<i class="bottom-border"></i>
+	</div>
+	</div>
+	</a>
+	
+	</div>
+	
+	
+	<div class="col-md-4 col-sm-6 col-xs-12">
+	
+	<a href="#" class="available-room-block" style="background-image: url('images/rooms/2.jpg');">
+	<span><strong>€829</strong>في الليلة</span>
+	<div class="available-room-caption">
+	<h3>سويت</h3>
+	<div class="custom-btn">
+	<i class="top-border"></i>
+	<i class="left-border"></i>
+	<span>أحجز الأن</span>
+	<i class="right-border"></i>
+	<i class="bottom-border"></i>
+	</div>
+	</div>
+	</a>
+	
+	</div>
+	
+	
+	<div class="col-md-4 col-sm-6 col-xs-12">
+	
+	<a href="#" class="available-room-block" style="background-image: url('images/rooms/3.jpg');">
+	<span><strong>€829</strong>في الليلة</span>
+	<div class="available-room-caption">
+	<h3>جناج</h3>
+	<div class="custom-btn">
+	<i class="top-border"></i>
+	<i class="left-border"></i>
+	<span>أحجز الأن</span>
+	<i class="right-border"></i>
+	<i class="bottom-border"></i>
+	</div>
+	</div>
+	</a>
+	
+	</div>
+	
+	
+	<div class="col-md-4 col-sm-6 col-xs-12">
+	
+	<a href="#" class="available-room-block" style="background-image: url('images/rooms/4.jpg');">
+	<span><strong>€829</strong>في الليلة</span>
+	<div class="available-room-caption">
+	<h3>شقة</h3>
+	<div class="custom-btn">
+	<i class="top-border"></i>
+	<i class="left-border"></i>
+	<span>أحجز الأن</span>
+	<i class="right-border"></i>
+	<i class="bottom-border"></i>
+	</div>
+	</div>
+	</a>
+	
+	</div>
+	
+	
+	<div class="col-md-4 col-sm-6 col-xs-12">
+	
+	<a href="#" class="available-room-block" style="background-image: url('images/rooms/1.png');">
+	<span><strong>€829</strong>في الليلة</span>
+	<div class="available-room-caption">
+	<h3>شقة متكاملة</h3>
+	<div class="custom-btn">
+	<i class="top-border"></i>
+	<i class="left-border"></i>
+	<span>أحجز الأن</span>
+	<i class="right-border"></i>
+	<i class="bottom-border"></i>
+	</div>
+	</div>
+	</a>
+	
+	</div>
+	
+	
+	<div class="col-md-4 col-sm-6 col-xs-12">
+	
+	<a href="#" class="available-room-block" style="background-image: url('images/rooms/2.jpg');">
+	<span><strong>€829</strong>في الليلة</span>
+	<div class="available-room-caption">
+	<h3>فيلا</h3>
+	<div class="custom-btn">
+	<i class="top-border"></i>
+	<i class="left-border"></i>
+	<span>أحجز الأن</span>
+	<i class="right-border"></i>
+	<i class="bottom-border"></i>
+	</div>
+	</div>
+	</a>
+	
+	</div>
+	
+	
+	<div class="col-md-4 col-sm-6 col-xs-12">
+	
+	<a href="#" class="available-room-block" style="background-image: url('images/rooms/3.jpg');">
+	<span><strong>€829</strong>في الليلة</span>
+	<div class="available-room-caption">
+	<h3>غرفة</h3>
+	<div class="custom-btn">
+	<i class="top-border"></i>
+	<i class="left-border"></i>
+	<span>أحجز الأن</span>
+	<i class="right-border"></i>
+	<i class="bottom-border"></i>
+	</div>
+	</div>
+	</a>
+	
+	</div>
+	
+	
+	<div class="col-md-4 col-sm-6 col-xs-12">
+	
+	<a href="#" class="available-room-block" style="background-image: url('images/rooms/4.jpg');">
+	<span><strong>€829</strong>في الليلة</span>
+	<div class="available-room-caption">
+	<h3>غرفة مزدوجة</h3>
+	<div class="custom-btn">
+	<i class="top-border"></i>
+	<i class="left-border"></i>
+	<span>أحجز الأن</span>
+	<i class="right-border"></i>
+	<i class="bottom-border"></i>
+	</div>
+	</div>
+	</a>
+	
+	</div>
+</div>
+	
+	</div>
+	
+	
+	<div class="row">
+	
+	<div class="col-xs-8 col-xs-offset-4">
+	
+	<nav aria-label="Page navigation">
+	<ul class="pagination">
+	<li>
+	<a href="#" aria-label="Previous">
+	<span aria-hidden="true">«</span>
+	</a>
+	</li>
+	<li><a href="#" class="active" style="background-color: #d2bd7f;">1</a></li>
+	<li><a href="#">2</a></li>
+	<li><a href="#">3</a></li>
+	<li><a href="#">4</a></li>
+	<li><a href="#">5</a></li>
+	<li>
+	<a href="#" aria-label="Next">
+	<span aria-hidden="true">»</span>
+	</a>
+	</li>
+	</ul>
+	</nav>
+	
+	</div>
+	
+	</div>
+	
+	</div>
+	
+	</section>
 
-		<div class="grid-item restaurant">
-		
-		<a href="images/gallery/download1.jpg" class="gallery-item dh-container">
-		
-		<div class="gallery-overlay dh-overlay">
-		
-		<div class="custom-btn">
-		<i class="top-border"></i>
-		<i class="left-border"></i>
-		<span><i class="fa fa-search-plus" aria-hidden="true"></i><p>تكبير </p></span>
-		<i class="right-border"></i>
-		<i class="bottom-border"></i>
-		</div>
-		
-		</div>
-		
-		<img src="images/gallery/download1.jpg" alt="gallery alt images" class="img-responsive responsive-ratio">
-		</a>
-		
-		</div>
-		<div class="grid-item grid-item--height2 bars">
-		
-		<a href="images/gallery/people.png" class="gallery-item dh-container">
-		
-		<div class="gallery-overlay dh-overlay">
-		
-		<div class="custom-btn">
-		<i class="top-border"></i>
-		<i class="left-border"></i>
-		<span><i class="fa fa-search-plus" aria-hidden="true"></i><p>تكبير </p></span>
-		<i class="right-border"></i>
-		<i class="bottom-border"></i>
-		</div>
-		
-		</div>
-		
-		<img src="images/gallery/people.png" alt="gallery alt images" class="img-responsive">
-		</a>
-		
-		</div>
-		<div class="grid-item bars">
-		
-		<a href="images/gallery/lirwh-wetr-deck-1897-hor-wide.jpg" class="gallery-item dh-container">
-		
-		<div class="gallery-overlay dh-overlay">
-		
-		<div class="custom-btn">
-		<i class="top-border"></i>
-		<i class="left-border"></i>
-		<span><i class="fa fa-search-plus" aria-hidden="true"></i><p>تكبير </p></span>
-		<i class="right-border"></i>
-		<i class="bottom-border"></i>
-		</div>
-		
-		</div>
-		
-		<img src="images/gallery/lirwh-wetr-deck-1897-hor-wide.jpg" alt="gallery alt images" class="img-responsive responsive-ratio">
-		</a>
-		
-		</div>
-		<div class="grid-item rooms">
-		
-		<a href="images/gallery/hotel-michael-pool.jpg" class="gallery-item dh-container">
-		
-		<div class="gallery-overlay dh-overlay">
-		
-		<div class="custom-btn">
-		<i class="top-border"></i>
-		<i class="left-border"></i>
-		<span><i class="fa fa-search-plus" aria-hidden="true"></i><p>تكبير </p></span>
-		<i class="right-border"></i>
-		<i class="bottom-border"></i>
-		</div>
-		
-		</div>
-		
-		<img src="images/gallery/hotel-michael-pool.jpg" alt="gallery alt images" class="img-responsive responsive-ratio">
-		</a>
-		
-		</div>
 
-		<div class="grid-item grid-item--height2 rooms">
-		
-		<a href="images/gallery/holiday-inn-kemah-3967993154-4x3.jpg" class="gallery-item dh-container">
-		
-		<div class="gallery-overlay dh-overlay ">
-		
-		<div class="custom-btn">
-		<i class="top-border"></i>
-		<i class="left-border"></i>
-		<span><i class="fa fa-search-plus" aria-hidden="true"></i><p>تكبير </p></span>
-		<i class="right-border"></i>
-		<i class="bottom-border"></i>
-		</div>
-		
-		</div>
-		
-		<img src="images/gallery/holiday-inn-kemah-3967993154-4x3.jpg" alt="gallery alt images" class="img-responsive">
-		</a>
-		
-		</div>
 
-		<div class="grid-item grid-item--height2 bars">
-		
-		<a href="images/gallery/yt.png" class="gallery-item dh-container">
-		
-		<div class="gallery-overlay dh-overlay">
-		
-		<div class="custom-btn">
-		<i class="top-border"></i>
-		<i class="left-border"></i>
-		<span><i class="fa fa-search-plus" aria-hidden="true"></i><p>تكبير </p></span>
-		<i class="right-border"></i>
-		<i class="bottom-border"></i>
-		</div>
-		
-		</div>
-		
-		<img src="images/gallery/yt.png" alt="gallery alt images" class="img-responsive">
-		</a>
-		
-		</div>
-
-		<div class="grid-item lobby">
-		
-		<a href="images/gallery/first-flight-PASSENGER0117.jpg" class="gallery-item dh-container">
-		
-		<div class="gallery-overlay dh-overlay">
-		
-		<div class="custom-btn">
-		<i class="top-border"></i>
-		<i class="left-border"></i>
-		<span><i class="fa fa-search-plus" aria-hidden="true"></i><p>تكبير </p></span>
-		<i class="right-border"></i>
-		<i class="bottom-border"></i>
-		</div>
-		
-		</div>
-		
-		<img src="images/gallery/first-flight-PASSENGER0117.jpg" alt="gallery alt images" class="img-responsive responsive-ratio">
-		</a>
-		
-		</div>
-
-
-		<div class="grid-item rooms">
-		
-		<a href="images/gallery/itemImage_51_thumb.jpg" class="gallery-item dh-container">
-		
-		<div class="gallery-overlay dh-overlay">
-		
-		<div class="custom-btn">
-		<i class="top-border"></i>
-		<i class="left-border"></i>
-		<span><i class="fa fa-search-plus" aria-hidden="true"></i><p>تكبير </p></span>
-		<i class="right-border"></i>
-		<i class="bottom-border"></i>
-		</div>
-		
-		</div>
-		
-		<img src="images/gallery/itemImage_51_thumb.jpg" alt="gallery alt images" class="img-responsive responsive-ratio">
-		</a>
-		
-		</div>
-
-		<div class="grid-item lobby">
-		
-		<a href="images/gallery/download.jpg" class="gallery-item dh-container">
-		
-		<div class="gallery-overlay dh-overlay">
-		
-		<div class="custom-btn">
-		<i class="top-border"></i>
-		<i class="left-border"></i>
-		<span><i class="fa fa-search-plus" aria-hidden="true"></i><p>تكبير </p></span>
-		<i class="right-border"></i>
-		<i class="bottom-border"></i>
-		</div>
-		
-		</div>
-		
-		<img src="images/gallery/download.jpg" alt="gallery alt images" class="img-responsive responsive-ratio">
-		</a>
-		
-		</div>
-		</div>
-
-<div class="more-btn-gp">
-
-<a href="#" class="custom-btn custom-btn-light">
-<i class="top-border"></i>
-<i class="left-border"></i>
-<span>عرض الكل</span>
-<i class="right-border"></i>
-<i class="bottom-border"></i>
-</a>
-
-</div>
-
-</section>
-
-
-<section class="counter section parallax fullscreen background" data-img-width="1920" data-img-height="1064" data-diff="100" data-oriz-pos="100%" style="background-image: url(images/parallax/1.jpg);">
-
-<div class="container">
-
-<div class="counter-gp">
-
-<div class="row">
-
-<div class="col-sm-3 col-xs-6">
-
-<div class="counter-block">
-
-<div class="counter-icon-number">
-<strong>+</strong>
-<span class="counter-num">121</span>
-</div>
-
-<h4>عدد الرحلات البحرية</h4>
-</div>
-
-</div>
-
-
-<div class="col-sm-3 col-xs-6">
-
-<div class="counter-block">
-
-<div class="counter-icon-number">
-<strong>+</strong>
-<span class="counter-num">254</span>
-</div>
-
-<h4>عدد الفنادق  </h4>
-</div>
-
-</div>
-
-
-<div class="col-sm-3 col-xs-6">
-
-<div class="counter-block">
-
-<div class="counter-icon-number">
-<strong>+</strong>
-<span class="counter-num">430000</span>
-</div>
-
-<h4>عدد العملاء </h4>
-</div>
-
-</div>
-
-
-<div class="col-sm-3 col-xs-6">
-
-<div class="counter-block">
-
-<div class="counter-icon-number">
-<strong>+</strong>
-<span class="counter-num">728</span>
-</div>
-
-<h4>عدد الرحلات الجوية</h4>
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</section>
-
-
-<section class="our-activities section section-white latest-offers">
-
-<div class="container">
-
-<div class="row">
-
-<div class="col-xs-12">
-
-<div class="section-header section-header-light">
-<h2>أخر العروض المتاحة</h2>
-<p>نحن نقدم أفضل خدمة علي مستوي الوطن العربي</p>
-</div>
-
-</div>
-
-</div>
-
-
-<div class="our-activities-owl-gp">
-
-<div id="latest-offers-next" class="btn-next">
-<i class="fa fa-angle-right" aria-hidden="true"></i>
-</div>
-<div id="latest-offers-prev" class="btn-prev">
-<i class="fa fa-angle-left" aria-hidden="true"></i>
-</div>
-
-
-<div id="latest-offers-owl" class="owl-carousel">
-
-<div class="item">
-
-<a href="#" class="latest-offers-block">
-
-<div class="latest-offers-caption">
-<h3>عرض شهرالعسل</h3>
-<p>استمتع بشهر عسل فاخر مخصص لمساعدتك على الاسترخاء.</p>
-</div>
-
-
-<ul class="latest-offers-list">
-<li><span>- تذكرة طيران</span></li>
-<li><span>- مطعم (جميع الوجبات)</span></li>
-<li><span>- حفلات</span></li>
-<li><span>- غرف فندقية فاخرة</span></li>
-</ul>
-
-
-<div class="latest-offers-note">
-<span>
-أستمتع <br> بخصم <br><strong>25%</strong><br> 
-</span>
-</div>
-
-
-<div class="custom-btn">
-<i class="top-border"></i>
-<i class="left-border"></i>
-<span><i class="fa fa-calendar" aria-hidden="true"></i>أحجز الأن</span>
-<i class="right-border"></i>
-<i class="bottom-border"></i>
-</div>
-
-<img src="images/offers/EEDp2.jpg" alt="test" class="img-responsive">
-</a>
-
-</div>
-
-
-<div class="item">
-
-<a href="#" class="latest-offers-block">
-
-<div class="latest-offers-caption">
-<h3>عرض العمرة</h3>
-<p>أستمتع بمناسك العمرة العظيمة و نحن في خدمتك</p>
-</div>
-
-
-<ul class="latest-offers-list">
-<li><span>- طيران درجة أولي</span></li>
-<li><span>- مطعم (جميع الوجبات)</span></li>
-<li><span>- أتوبيس للتنقل </span></li>
-<li><span>- خدمة فندقية</span></li>
-</ul>
-
-
-<div class="latest-offers-note">
-<span>
-		أستمتع <br> بخصم <br><strong>35%</strong><br> 
-	</span>
-</div>
-
-
-<div class="custom-btn">
-<i class="top-border"></i>
-<i class="left-border"></i>
-<span><i class="fa fa-calendar" aria-hidden="true"></i>أحجز الأن</span>
-<i class="right-border"></i>
-<i class="bottom-border"></i>
-</div>
-
-<img src="images/offers/c.jpg" alt="test" style="height: 303px;" class="img-responsive">
-</a>
-
-</div>
-
-</div>
-
-</div>
-
-
-<div class="more-btn-gp">
-
-<a href="#" class="custom-btn custom-btn-light">
-<i class="top-border"></i>
-<i class="left-border"></i>
-<span>عرض الكل</span>
-<i class="right-border"></i>
-<i class="bottom-border"></i>
-</a>
-
-</div>
-
-</div>
-
-</section>
-
-
-<section class="available-room section our-events">
-
-<div class="container">
-
-<div class="row">
-
-<div class="col-xs-12">
-
-<div class="section-header-gp">
-
-<div class="section-header">
-<h2>أخر أخبار شركتنا</h2>
-</div>
-
-
-<div class="custom-btn owl-available-room">
-<i class="top-border"></i>
-<i class="left-border"></i>
-<div class="custom-btn-arrows">
-<div id="owl-our-events-prev" class="top-btn-prev">
-<i class="fa fa-angle-left" aria-hidden="true"></i>
-</div>
-<div id="owl-our-events-next" class="top-btn-next">
-<i class="fa fa-angle-right" aria-hidden="true"></i>
-</div>
-</div>
-<i class="right-border"></i>
-<i class="bottom-border"></i>
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-
-<div id="our-events-owl" class="owl-carousel">
-
-<div class="item">
-
-<a href="#" class="our-events-block">
-
-<div class="our-events-caption">
-<h3>وصول الرحلة رقم 100</h3>
-<p><i class="fa fa-calendar" aria-hidden="true"></i>يوم الأحد : 11/10/2019</p>
-</div>
-
-
-<div class="custom-btn">
-<i class="top-border"></i>
-<i class="left-border"></i>
-<span>قراءة المزيد</span>
-<i class="right-border"></i>
-<i class="bottom-border"></i>
-</div>
-
-<img src="images/events/download2.jpg" alt="test" class="img-responsive">
-</a>
-
-</div>
-
-
-<div class="item">
-
-<a href="#" class="our-events-block">
-
-<div class="our-events-caption">
-<h3>فوز العميل رقم 5000</h3>
-<p><i class="fa fa-calendar" aria-hidden="true"></i>يوم الأحد : 11/10/2019</p>
-</div>
-
-
-<div class="custom-btn">
-<i class="top-border"></i>
-<i class="left-border"></i>
-<span>قراءة المزيد</span>
-<i class="right-border"></i>
-<i class="bottom-border"></i>
-</div>
-
-<img src="images/events/i.jpg" style="height: 303px;" alt="test" class="img-responsive">
-</a>
-
-</div>
-
-
-<div class="item">
-
-<a href="#" class="our-events-block">
-
-<div class="our-events-caption">
-<h3>فتح باب حجز رحلات</h3>
-<p><i class="fa fa-calendar" aria-hidden="true"></i>يوم الأحد : 11/10/2019</p>
-</div>
-
-
-<div class="custom-btn">
-<i class="top-border"></i>
-<i class="left-border"></i>
-<span>قراءة المزيد</span>
-<i class="right-border"></i>
-<i class="bottom-border"></i>
-</div>
-
-<img src="images/events/y.png"  style="height: 303px;" alt="test" class="img-responsive">
-</a>
-
-</div>
-
-</div>
-
-
-<div class="more-btn-gp">
-
-<a href="#" class="custom-btn custom-btn-dark">
-<i class="top-border"></i>
-<i class="left-border"></i>
-<span>عرض المزيد</span>
-<i class="right-border"></i>
-<i class="bottom-border"></i>
-</a>
-
-</div>
-
-</section>
-
-
-<section class="our-activities section section-white about-us">
-
-<div class="container">
-
-<div class="row">
-
-<div class="col-xs-12">
-
-<div class="section-header section-header-light">
-<h2>عن الشركة</h2>
-<p>نحن نقدم أفضل خدمة علي مستوي الوطن العربي</p>
-</div>
-
-</div>
-
-</div>
-
-
-<div class="row">
-
-<div class="col-xs-12">
-<p class="about-us-text">
-		رائدة فى مجال السسياحة العامة وتعمل تحت ضوابط وزارة السياحة المصرية
-		وحاصلة على ترخيص سياحة عامة أ رقم 845 لسنة 1990 ايضا على موافقات منظمة
-		العالمية IATA
-		وكلاء معتمدون لجميع خطوط الطيران العربية والعالمية والنقل السياحى وايضا مميزون فى حجز الفنادق
-		
-		داخل مصر وحول العالم
-		وكيل سياحى معتمد لكافة السفارات بإستخراج جميع التاشيرات السياحية
-		
-		انشطة الشركة
-		حجز تذاكر الطيران با فضل الاسعار – حجز الفنادق داخل مصر وخرجها بتخفيضات هائلة
-		نقل سياحى – اصدار تاشيرات سياحية – حج وعمرة
-</p>
-</div>
-
-</div>
-
-
-<div class="more-btn-gp">
-
-<a href="#" class="custom-btn custom-btn-light">
-<i class="top-border"></i>
-<i class="left-border"></i>
-<span>عرض المزيد</span>
-<i class="right-border"></i>
-<i class="bottom-border"></i>
-</a>
-
-</div>
-
-</div>
-
-</section>
-
-
-<section class="available-room section our-testimonials parallax fullscreen background" data-img-width="1920" data-img-height="1064" data-diff="100" data-oriz-pos="100%" style="background-image: url(images/parallax/2.jpg);">
-
-<div class="container">
-
-<div class="row">
-
-<div class="col-xs-12">
-
-<div class="section-header-gp">
-
-<div class="section-header">
-<h2>أراء العملاء</h2>
-</div>
-
-
-<div class="custom-btn owl-available-room">
-<i class="top-border"></i>
-<i class="left-border"></i>
-<div class="custom-btn-arrows">
-<div id="our-testimonials-prev" class="top-btn-prev">
-<i class="fa fa-angle-left" aria-hidden="true"></i>
-</div>
-<div id="our-testimonials-next" class="top-btn-next">
-<i class="fa fa-angle-right" aria-hidden="true"></i>
-</div>
-</div>
-<i class="right-border"></i>
-<i class="bottom-border"></i>
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-
-<div id="our-testimonials-owl" class="owl-carousel">
-
-<div class="item">
-
-<div class="our-testimonials-block">
-<img src="images/testimonials/avatar_03.png" alt="test">
-<p>تعامل راقي جدا و فوق الممتاز</p>
-</div>
-
-</div>
-
-
-<div class="item">
-
-<div class="our-testimonials-block">
-<img src="images/testimonials/4.png" alt="test">
-<p>من أفضل شركات الطيران بجد</p>
-</div>
-
-</div>
-
-
-<div class="item">
-
-<div class="our-testimonials-block">
-<img src="images/testimonials/abobakr-alshatry.jpg" alt="test">
-<p> بسم الله ما شاء الله الشركة أكثر من مريحة في التعامل</p>
-</div>
-
-</div>
-
-
-<div class="item">
-
-<div class="our-testimonials-block">
-<img src="images/testimonials/me.jpg" alt="test">
-<p>شغل فنادق علي أعلي مستوي</p>
-</div>
-
-</div>
-
-
-<div class="item">
-
-<div class="our-testimonials-block">
-<img src="images/testimonials/team_01.png" alt="test">
-<p>سأتعامل دائما معكم</p>
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</section>
 
 
 <section class="footer-contacts">
@@ -1457,16 +1439,16 @@
 <ul class="footer-contacts-list">
 <li>
 <span><i class="fa fa-map-marker" aria-hidden="true"></i> العنوان</span>
-<p>19 شارع 261 المعادى الجديدة – ميدان الجزائر
+<p> المملكة العربية السعودية - المنطقة الشرقية - الخبر
 	</p>
 </li>
 <li>
 <span><i class="fa fa-phone" aria-hidden="true"></i> الهاتف</span>
-<p>+20 128 406 5814 | +20 128 406 5814</p>
+<p>966547446913</p>
 </li>
 <li>
 <span><i class="fa fa-envelope" aria-hidden="true"></i> البريد الألكتروني</span>
-<p><a href="https://oncloudeg.com/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="21424e4f55404255614e4f424d4e544544460f424e4c">[email&#160;protected]</a></p>
+<p>info@flyeagle.com</p>
 </li>
 </ul>
 
@@ -1543,6 +1525,35 @@
 <script src="select2/js/select2.min.js"></script>
 <script src="js/steps-form.js"></script>
 <script src="js/custom-rtl.js"></script>
+<script>
+
+	
+
+        function Check(type) 
+		{
+            $('#FaPlane').removeClass("fa-active");
+			$('#FaHotel').removeClass("fa-active");
+            if (type == 1) 
+			{
+				$('#FaPlane').addClass("fa-active");
+                $('#Gender' + type).prop("checked", true);
+				$('#PlaneDiv').show();
+				$('#HotelDiv').hide();
+            }
+            else {
+				$('#FaHotel').addClass("fa-active");
+                $('#Gender' + type).prop("checked", true);
+				$('#HotelDiv').show();
+				$('#PlaneDiv').hide();
+            }
+        }
+
+    
+
+
+    
+
+</script>
 
 </body>
 
